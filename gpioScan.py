@@ -1,5 +1,14 @@
 #!/usr/bin/env python
 
+"""
+GPIO to rotary switch mapping
+GPIO25 - Terminal A
+GPIO24 - Terminal B
+GPIO18 - Terminal C
+GPIO23 - Terminal D
+"""
+
+
 def main():
     import RPi.GPIO as GPIO  
     GPIO.setmode(GPIO.BCM)  
